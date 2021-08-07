@@ -4,13 +4,12 @@
 
 
 ## Table of Contents
-
-  - [Goals](#goal)
+  - [Goals](#goals)
   - [Approach](#approach)
   - [Results](#results)
 
 
-## 1. Goals
+## Goals
 
  ## <b>i. Create a lazy iterator that will return a named tuple of the data in each row. The data types should be appropriate - i.e. if the column is a date, you should be storing dates in the named tuple, if the field is an integer, then it should be stored as an integer, etc.</b>
 
@@ -19,7 +18,7 @@
 Note: Try to use lazy evaluation as much as possible - it may not always be possible though! That's OK, as long as it's kept to a minimum.
     
  
-## 2. Approach
+## Approach
 Goal 1
 ```python
 def read_file(path):
@@ -46,7 +45,7 @@ for i in car_tuples:
     vehicle_violation_dict[brand] += 1
 ```
 
-## 3. Results 
+## Results 
 
   <p align="center">
     <img src='output.png'>
